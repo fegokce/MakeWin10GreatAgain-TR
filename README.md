@@ -16,11 +16,11 @@ Windows 10'u daha az sinir bozucu ve daha kullanışlı hale getirmek için ince
 11. Linux Alt Sistemini Kurar
 12. Powershell Get-Help öğelerini günceller
 13. SMBv1'i devre dışı bırakır
-14. Tüm Başlat Menüsü öğelerinin sabitlemesini kaldırın
+14. Tüm Başlat Menüsü öğelerinin sabitlemesini kaldırır
 15. WPAD'yi devre dışı bırakır
 
 ## Kurulum
-Maalesef, bu betiği kullanmak için yürütme politikanızı sınırsız olarak ayarlamanız gerekecek.
+Maalesef, bu kodu kullanmak için yürütme politikanızı sınırsız olarak ayarlamanız gerekecek.
 
 Yönetici Powershell isteminden:
 ```
