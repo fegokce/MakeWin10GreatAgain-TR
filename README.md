@@ -1,36 +1,36 @@
-# Make Windows 10 Great Again
-Tweaks to make Windows 10 less annoying and more usable.
+# Windows 10'u Yeniden Harika Hale Getirin
+Windows 10'u daha az sinir bozucu ve daha kullanışlı hale getirmek için ince ayarlar.
 
-Here's what this script does:
+İşte bu kodun yaptığı:
 
-1. Disables Cortana
-2. Disables Notification Center
-3. Disables automatic reboots after Windows Updates have been installed
-4. Disables Microsoft.com accounts from Windows Login
-5. Shows file extensions for known file types
-6. Sets Explorer to open to "This PC"
-7. Shows hidden files (not including OS files)
-8. Uninstalls OneDrive
-9. Shows "This PC" icon on Desktop
-10. Enables developer mode (required for Linux Subsystem)
-11. Installs the Linux Subsystem
-12. Updates the Powershell Get-Help items
-13. Disables SMBv1
-14. Unpin all Start Menu items
-15. Disables WPAD 
+1. Cortana'yı devre dışı bırakır
+2. Bildirim Merkezini Devre Dışı Bırakır
+3. Windows Güncellemeleri yüklendikten sonra otomatik yeniden başlatmaları devre dışı bırakır
+4. Microsoft.com hesaplarını Windows Oturum Açma'dan devre dışı bırakır
+5. Bilinen dosya türleri için dosya uzantılarını gösterir
+6. Explorer'ı "Bu PC"ye açılacak şekilde ayarlar
+7. Gizli dosyaları gösterir (işletim sistemi dosyaları dahil değildir)
+8. OneDrive'ı Kaldırır
+9. Masaüstünde "Bu Bilgisayar" simgesini gösterir
+10. Geliştirici modunu etkinleştirir (Linux Alt Sistemi için gereklidir)
+11. Linux Alt Sistemini Kurar
+12. Powershell Get-Help öğelerini günceller
+13. SMBv1'i devre dışı bırakır
+14. Tüm Başlat Menüsü öğelerinin sabitlemesini kaldırın
+15. WPAD'yi devre dışı bırakır
 
-## Installation
-Unfortunately you'll have to set your execution policy to unrestricted to use this script.
+## Kurulum
+Maalesef, bu betiği kullanmak için yürütme politikanızı sınırsız olarak ayarlamanız gerekecek.
 
-From an Administrator Powershell prompt:
+Yönetici Powershell isteminden:
 ```
-Set-ExecutionPolicy Unrestricted
-cd MakeWindows10GreatAgain
+Set-ExecutionPolicy Sınırsız
+cd MakeWindows10 GreatAgain
 .\MakeWindows10GreatAgain.ps1
-Set-ExecutionPolicy Restricted
+Set-ExecutionPolicy Kısıtlı
 ```
 
-## Notes
-I considered adding some tweaks to remove the default apps/tiles that come installed with the Win10 start menu, but I've been pleasantly surprised by [Classic Shell](http://classicshell.net/). It's an excellent start menu replacement for Win10. I recommend just installing that.
+## Notlar
+Win10 başlat menüsüyle birlikte gelen varsayılan uygulamaları/döşemeleri kaldırmak için bazı ince ayarlar eklemeyi düşündüm, ancak [Klasik Kabuk](http://classicshell.net/) beni çok şaşırttı. Win10 için mükemmel bir başlat menüsü değişimi. Sadece bunu yüklemenizi tavsiye ederim.
 
-This script doesn't address any of the privacy issues of Windows 10 because there are already a [bunch of tools](http://www.ghacks.net/2015/08/14/comparison-of-windows-10-privacy-tools/) that already do that.
+Bu komut dosyası, Windows 10'un gizlilik sorunlarının hiçbirini ele almıyor çünkü zaten bir sürü araç var (http://www.ghacks.net/2015/08/14/comparison-of-windows-10-privacy -tools/) zaten bunu yapıyor.
