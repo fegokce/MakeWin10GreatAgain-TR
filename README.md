@@ -24,10 +24,10 @@ Maalesef, bu kodu kullanmak için yürütme politikanızı sınırsız olarak ay
 
 Yönetici Powershell isteminden:
 ```
-Set-ExecutionPolicy Sınırsız
-cd MakeWindows10 GreatAgain
+Set-ExecutionPolicy Unrestricted
+cd MakeWindows10GreatAgain
 .\MakeWindows10GreatAgain.ps1
-Set-ExecutionPolicy Kısıtlı
+Set-ExecutionPolicy Restricted
 ```
 
 ## Notlar
